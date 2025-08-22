@@ -1,0 +1,101 @@
+/* Container */
+.todo-container {
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.todo-header h1 {
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-size: 24px;
+}
+
+/* Form */
+.add-todo form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.add-todo input[type='text'] {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-todo button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background-color: #0056b3;
+}
+
+/* Todo Display */
+.todo-display {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Individual Todo */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Todo text */
+.todoactual {
+  flex: 1;
+}
+
+/* Buttons */
+.todo button {
+  margin-left: 4px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* background-color: #6c757d; */
+  color: white;
+  font-size: 12px;
+}
+
+.todo button:hover {
+  background-color: #495057;
+}
+
+/* Completed styling (optional for practice) */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.edit {
+  background-color: blue;
+}
+
+.delete {
+  background-color: red;
+}
+
+.completed {
+  background-color: green;
+}
