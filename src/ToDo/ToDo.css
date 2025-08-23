@@ -83,9 +83,9 @@
 }
 
 /* Completed styling (optional for practice) */
-.completed {
+.completedlt {
   text-decoration: line-through;
-  color: #888;
+  color: hotpink;
 }
 
 .edit {
